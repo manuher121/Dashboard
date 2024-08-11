@@ -27,10 +27,32 @@ body, html {
     font-size: 35px;
 }
 
-img {
+.dashboard img {
     margin-left: 10px;
     height: auto;
     width: 40px;
+}
+
+.sidebar-info img, .sidebar-info2 img {
+    margin-left: 20px;
+    width: 25px;
+    justify-self: center;
+}
+
+.sidebar-info {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    font-size: 25px;
+    gap: 20px;
+}
+
+.sidebar-info2 {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    font-size: 25px;
+    gap: 20px;
 }
 
 .header {
