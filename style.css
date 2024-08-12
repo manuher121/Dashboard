@@ -160,7 +160,7 @@ button {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     font-size: 10px;
-    background-color: #93c5fd;
+    background-color: #bae6fd;
 }
 
 hr {
@@ -169,7 +169,7 @@ hr {
 }
 
 .trending {
-    background-color: #93c5fd;
+    background-color: #bae6fd;
     margin-right: 20px;
     border-radius: 20px;
     padding: 20px;
@@ -180,4 +180,34 @@ hr {
 
 .trending img {
     width: 40px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.projects > div {
+    background-color: #bae6fd;
+    padding: 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 40px;
+}
+
+.projects img {
+    width: 30px;
+}
+
+.project-text {
+    padding: 15px;
+}
+
+.project-images {
+    gap: 14px;
+    display: grid;
+    grid-template-columns: 40px 40px 40px;
+    justify-self: end;
 }
